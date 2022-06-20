@@ -124,6 +124,46 @@
 @media (max-width: 900px) {
   .resume {
     width: 90vw;
-    height: 90vh;
   }
+}
+
+.projCont {
+  display: flex;
+  flex-direction: column;
+}
+
+.blank {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  padding: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  width: max-content;
+}
+
+.blank:hover,
+.blank:focus,
+.blank:active {
+  color: #56337E;
+  border-color: #56337E;
+}
+
+.image {
+  display: block;
+  width: 50vw;
+  margin: 3rem 0;
+}
+
+.xi h3 {
+  color: #56337E;
+}
+
+.xi h4 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.pt {
+  height: 100vh;
 }

@@ -7,12 +7,12 @@ import Layout from "../src/layout/layout";
 const home = (props) => (
   <Layout>
     <div className={styles.grid}>
-      <a href="#" className={styles.card}>
+      <a href="/front_end" className={styles.card}>
         <h2>Web Development &rarr;</h2>
         <p>Discover my familiarity with front end to back end development.</p>
       </a>
 
-      <a href="#" className={styles.card}>
+      <a href="/ux_ui" className={styles.card}>
         <h2>UX / UI &rarr;</h2>
         <p>View my process for designing modern applications.</p>
       </a>

@@ -14,3 +14,28 @@ a {
 * {
   box-sizing: border-box;
 }
+
+iframe {
+  width: 60vw;
+  height: 81vh;
+}
+
+@media (max-width: 600px) {
+  iframe {
+    width: 100vw;
+    height: 90vh;
+  }
+}
+
+h2 {
+  margin: 1rem;
+}
+
+.gIcon {
+  font-size: 2.1rem;
+}
+
+.gIcon:hover, .gIcon:active, .gIcon:focus {
+  transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.05);
+}
