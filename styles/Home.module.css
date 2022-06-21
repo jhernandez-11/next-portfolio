@@ -132,6 +132,12 @@
   flex-direction: column;
 }
 
+@media (max-width: 600px) {
+  .projCont object {
+    width: 100vw;
+  } 
+}
+
 .blank {
   border: 1px solid #eaeaea;
   border-radius: 10px;
