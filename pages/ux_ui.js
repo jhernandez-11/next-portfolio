@@ -62,6 +62,7 @@ const uxUi = (props) => (
       <div className={styles.image}>
         <Image src="/ux_ui/flow.png" layout="responsive" height="593" width="694" alt="user-flow"></Image>
       </div>
+      
       <h3>Site Map</h3>
       <div className={styles.projCont}>
         <object
@@ -73,7 +74,7 @@ const uxUi = (props) => (
         </object>
       </div>
 
-      <h3>Flow</h3>
+      <h3>Render</h3>
       <div className={styles.image}>
         <Image src="/ux_ui/render.png" layout="responsive" height="660" width="510" alt="render"></Image>
       </div>
