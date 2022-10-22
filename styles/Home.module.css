@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #56337E;
+  color: #4d4d4d;
   text-decoration: none;
 }
 
@@ -89,8 +89,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #56337E;
-  border-color: #56337E;
+  color: #4d4d4d;
+  border-color: #666666;
 }
 
 .card h2 {
@@ -151,8 +151,8 @@
 .blank:hover,
 .blank:focus,
 .blank:active {
-  color: #56337E;
-  border-color: #56337E;
+  color: #4d4d4d;
+  border-color: #666666;
 }
 
 .image {
@@ -162,7 +162,7 @@
 }
 
 .xi h3 {
-  color: #56337E;
+  color: #4d4d4d;
 }
 
 .xi h4 {
