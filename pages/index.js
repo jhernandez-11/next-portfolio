@@ -28,6 +28,15 @@ const home = (props) => (
       </div>
 
       <div className={styles.card}>
+        <Link href="/graphic_arts">
+          <div>
+            <h2>Graphic Arts &rarr;</h2>
+            <p>Other media in graphic arts such as logos.</p>
+          </div>
+        </Link>
+      </div>
+
+      <div className={styles.card}>
         <Link href="/resume">
           <div>
             <h2>Resume &rarr;</h2>
